@@ -27,8 +27,8 @@ Esse projeto foi desenvolvido utilizando apenas HTML e CSS com @mediaquery para 
 Conta com uma página extra de agradecimento após o envio do formulário de contato.
 
 Esta disponível para acessar no github e com deploy na netlify para testes.
-Github: https://github.com/LuizMirandaJr/DescomplicaExcel
-Deploy: https://descomplicaexcel.netlify.app/
+- Github: https://github.com/LuizMirandaJr/DescomplicaExcel
+- Deploy: https://descomplicaexcel.netlify.app/
 
 <h3>Projeto 2 - Calculadora de Combustível</h3>
 Esse foi o meu primeiro projeto contando com JavaScript e totalmente idealizado por mim. 
@@ -38,8 +38,8 @@ de gasto em litros e o valor em reais do gasto.
 O código foi bem simples, apenas utilizando constantes e eventos:
 
 O projeto esta disponível para acessar no github e com deploy no github pages para testes.
-Github: https://github.com/LuizMirandaJr/calculadoraKM
-Deploy: https://luizmirandajr.github.io/calculadoraKM/
+- Github: https://github.com/LuizMirandaJr/calculadoraKM
+- Deploy: https://luizmirandajr.github.io/calculadoraKM/
 
 <h3>Projeto 3 - Calculadora de IMC</h3>
 Projeto desenvolvido para um desafio em evento online.
@@ -48,8 +48,8 @@ Foi desenvolvido em HTML, CSS e JavaScript. O sistema utiliza o peso e altura do
 Para fazer o cálculo, utilizei condições como if e else if.
 
 O projeto esta disponível para acessar no github e com deploy no github pages para testes.
-Github: https://github.com/LuizMirandaJr/CalculadoraIMC
-Deploy: https://luizmirandajr.github.io/CalculadoraIMC/
+- Github: https://github.com/LuizMirandaJr/CalculadoraIMC
+- Deploy: https://luizmirandajr.github.io/CalculadoraIMC/
 
 <h3>Projeto 4 - Previsão do Tempo</h3>
 Projeto também desenvolvido para um desafio em evento online.
@@ -57,8 +57,8 @@ O sistema foi desenvolvido em HTML, CSS e JavaScript e utiliza API do "openweath
 como está a temperatura e o tempo na cidade que você digitou.
 
 O projeto esta disponível para acessar no github e com deploy no github pages para testes.
-Github: https://github.com/LuizMirandaJr/weather
-Deploy: https://luizmirandajr.github.io/weather/
+- Github: https://github.com/LuizMirandaJr/weather
+- Deploy: https://luizmirandajr.github.io/weather/
 
 <h2>Contatos</h2>
 Para a seção de contatos, utilizei um formulário funcional através do formsubmit e links direcionais para as minhas redes sociais. 
@@ -76,3 +76,4 @@ Além de formas de facilitar a responsividade, utilizando fonts com medidas em R
 Para fazer a responsividade foi utilizado @mediaquery com ponto de quebra em 768px.
 
 Planejamento para a versão 1.01 onde incluirei o JavaScript com algumas funções. Uma delas por exemplo, será a possibilidade de alterar o tema do site entre Noite e Dia.
+
