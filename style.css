@@ -11,25 +11,34 @@ html {
 }
 
 body {
-    background-color: var(--preto);
+    background-color: var(--bg);
 }
 
 :root {
-    --branco: #ffff;
-    --cinza: #A0A0A0;
-    --preto: #000;
+    --bg: #000;
+    --text: #fff;
+    --secondary: #A0A0A0;
+    --bgInput: #e4e4e4;
+    --icon: url(./assets/sol-lua.svg) no-repeat;
+
+
 }
 
 header {
+    background: url(./assets/capa.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.capa {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url(./assets/capa.png) no-repeat;
-    background-size: cover;
-    background-position: center;
     height: 100vh;
+    margin-top: -80px;
 }
+
 
 .menu {
     font-family: "Montserrat Alternates", sans-serif;
@@ -51,19 +60,19 @@ li ul:hover {
 
 li ul a {
     text-decoration: none;
-    color: var(--cinza);  
+    color: #A0A0A0;  
 }
 
 .tituloh1 {
     margin-top: 60px;
     font-family: "Moulpali", sans-serif;
-    color: var(--branco);
+    color: #fff;
     font-size: 6.25rem;
     line-height: 6.25rem;
     font-weight: lighter;
     text-align: center;
 & span {
-    color: var(--cinza);
+    color: #A0A0A0;
     font-weight: 400;
 }
 }
@@ -71,21 +80,42 @@ li ul a {
 .subtitulo {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 400;
-    color: var(--cinza);
+    color: #A0A0A0;
     font-size: 1.25rem;
     text-align: center;
     text-transform: uppercase;
 }
 
 .div-title {
-    color: var(--cinza);
+    color: var(--secondary);
     font-weight: 400;
     font-size: 2.5rem;
-    text-align: center
+    text-align: center;
+}
+
+.tema {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#trocaTema {
+    width: 30px;
+    height: 30px;
+    margin: 0px 80px 50px 0;
+    border: none;
+    background: none;
+    padding: 10px;
+    cursor: pointer;
+    background: var(--icon);
+    background-size: cover;
+    background-position: center;
+}
+
+#sobre {
+        padding-top: 30px;
 }
 
 .content-sobre {
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,13 +123,13 @@ li ul a {
     /* padding: 60px; */
 & img {
     height: 500px;
-    border-bottom: 5px solid var(--cinza);
+    border-bottom: 5px solid var(--secondary);
     border-radius: 20px;
 }
 }
 
 .infos {
-    color: var(--branco);
+    color: var(--text);
     text-align: center;
 & h2 {
     font-family: "Moulpali", sans-serif;
@@ -151,7 +181,7 @@ li ul a {
     background-size: cover;
     background-position: center;
     border-radius: 10px;
-    border-bottom: 5px solid var(--cinza);
+    border-bottom: 5px solid var(--secondary);
     position: relative;
 }
 .cardImg2 {
@@ -162,7 +192,7 @@ li ul a {
     background-size: cover;
     background-position: center;
     border-radius: 10px;
-    border-bottom: 5px solid var(--cinza);
+    border-bottom: 5px solid var(--secondary);
     position: relative;
 }
 .cardImg3 {
@@ -173,18 +203,18 @@ li ul a {
     background-size: cover;
     background-position: center;
     border-radius: 10px;
-    border-bottom: 5px solid var(--cinza);
+    border-bottom: 5px solid var(--secondary);
     position: relative;
 }
 .cardImg4 {
     width: 100%;
-    max-width: 600px;
+    max-width: 800px;
     height: 400px;
     background: url(./assets/tempo.png) no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 10px;
-    border-bottom: 5px solid var(--cinza);
+    border-bottom: 5px solid var(--secondary);
     position: relative;
 }
 
@@ -192,14 +222,14 @@ li ul a {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: var(--bg);
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: var(--branco);
+    color: var(--secondary);
     gap: 24px;
     opacity: 0;
     transition: all 0.5s;
@@ -214,8 +244,8 @@ li ul a {
     display: flex;
     gap: 20px;
 & a {
-    background-color: var(--branco);
-    color: var(--preto);
+    background-color: var(--text);
+    color: var(--bg);
     text-decoration: none;
     padding: 10px;
     border-radius: 10px;
@@ -229,9 +259,9 @@ li ul a {
 }
 
 .buttoms a:hover {
-    background: var(--preto);
-    color: var(--branco);
-    outline: solid 1px var(--cinza);
+    background: var(--bg);
+    color: var(--text);
+    outline: solid 1px var(--secondary);
 }
 
 .deploy p, .github p {
@@ -247,7 +277,7 @@ li ul a {
     background-color: rgba(0, 0, 0, 0.9);
     width: 100%;
     height: 100%;
-    color: var(--branco);
+    color: var(--text);
     display: flex;
     flex-direction: column;
     opacity: 1;
@@ -281,7 +311,7 @@ li ul a {
         font-weight: 500;
         font-size: 1.2rem;
         line-height: 2rem;
-        color: var(--cinza);
+        color: var(--secondary);
     }
 & input {
     line-height: 1.8rem;
@@ -289,6 +319,7 @@ li ul a {
     border-radius: 5px;
     outline: none;
     border: none;
+    background-color: var(--bgInput);
 }
 & input:focus {
     outline: none;
@@ -301,6 +332,7 @@ li ul a {
     margin-top: 10px;
     font-size: 1.2rem;
     border: none;
+    background-color: var(--bgInput);
 }
 }
 
@@ -318,7 +350,7 @@ li ul a {
     align-items: center;
     transition: 0.2s;
     text-decoration: none;
-    color: white;
+    color: var(--text);
     
 }
 
@@ -328,10 +360,10 @@ li ul a {
 }
 
 footer {
-    border-top: solid 1px var(--cinza);
+    border-top: solid 1px var(--secondary);
     text-align: center;
     font-size: 0.75rem;
-    color: var(--branco);
+    color: var(--text);
     padding: 20px;
 }
 
@@ -371,6 +403,7 @@ footer {
     .formulario {
         width: 80%;
     }
+    
 
 }
 
@@ -445,4 +478,12 @@ footer {
         gap: 20px;
     }
 
+}
+
+.day-theme {
+    --bg: #ffffff;
+    --text: #000000;
+    --secondary: #555555;
+    --bgInput: #bbbbbb;
+    --icon: url(./assets/sol-lua-preto.svg) no-repeat
 }

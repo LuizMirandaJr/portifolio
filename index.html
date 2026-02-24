@@ -13,7 +13,9 @@
   
   </head>
   <body>
-    <header class="capa" id="home">
+    
+    <header id="home">
+      <div class="capa">
       <nav class="menu">
         <li>
           <ul><a href="#inicio">INÍCIO</a></ul>
@@ -26,9 +28,13 @@
       <h1 class="tituloh1"> <span>{</span> Luiz Miranda Jr <span>}</span></h1>
       <p class="subtitulo">Front End Dev</p>
     </div>
+    </div>
     </header>
 
     <div id="sobre">
+      <div class="tema">
+        <button id="trocaTema"></button>
+         </div>
       <h2 class="div-title">SOBRE</h2>
       <div class="content-sobre">
         <div class="infos">
@@ -118,15 +124,15 @@
       <form class="formulario" action="https://formsubmit.co/mirandajuniorsc@gmail.com" method="POST">
        
         <label for="nome">Nome</label>
-        <input type="text" name="nome" required>
+        <input type="text" name="nome" class="inputLayout" required>
 
         <label for="email">Email</label>
-        <input type="email" name="email" required>
+        <input type="email" name="email" class="inputLayout" required>
 
         <label for="whatsapp">Whastapp</label>
-        <input type="tel" name="whatsapp" required>
+        <input type="tel" name="whatsapp" class="inputLayout" required>
         <button type="submit">Enviar</button>
-        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_captcha" class="inputLayout" value="false">
    </form>
 
       <div class="contatos-links">
@@ -156,6 +162,6 @@
       <p>Luiz Miranda Jr.  |  2026</p>
     </footer>
   </body>
+  <script src="/script.js"></script>
 </html>
-
 
